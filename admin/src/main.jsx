@@ -11,7 +11,6 @@ createRoot(document.getElementById("root")).render(
     <Provider store={store}>
       <BrowserRouter>
         {" "}
-        {/* Only Router in the app */}
         <App />
       </BrowserRouter>
     </Provider>

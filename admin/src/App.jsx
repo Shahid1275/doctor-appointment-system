@@ -12,7 +12,7 @@ import Doctorlist from "./pages/admin/Doctorlist";
 import AddDoctor from "./pages/admin/AddDoctor";
 import DoctorDashboard from "./pages/doctor/DoctorDashboard";
 import DoctorAppointments from "./pages/doctor/DoctorAppointments";
-import DoctorProfile from "./pages/doctor/DoctorProfile";
+import DoctorProfile from "./pages/doctor/doctorProfile";
 
 const App = () => {
   const { atoken } = useSelector((state) => state.admin);
